@@ -7,7 +7,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const ENTRY =
-  "approved my own PR at 3am; LGTM now stands for looks good to me, the only one awake";
+  "merge conflict with myself; kept the version I no longer remember writing";
 
 function main(): void {
   const here = dirname(fileURLToPath(import.meta.url));
