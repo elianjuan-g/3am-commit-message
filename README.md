@@ -1,5 +1,9 @@
 # The 3AM Commit Message
 
+[![make.fun · u-kiencx-the-3am-commit-message-10bc7b35](https://make.fun/badge/u-kiencx-the-3am-commit-message-10bc7b35.svg)](https://make.fun/bounty/u-kiencx-the-3am-commit-message-10bc7b35?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-3am-commit-message-10bc7b35)
+[![rank](https://make.fun/badge/u-kiencx-the-3am-commit-message-10bc7b35/elianjuan-g/3am-commit-message/rank.svg)](https://make.fun/bounty/u-kiencx-the-3am-commit-message-10bc7b35/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-3am-commit-message-10bc7b35)
+[![reward](https://make.fun/badge/u-kiencx-the-3am-commit-message-10bc7b35/elianjuan-g/3am-commit-message/reward.svg)](https://make.fun/bounty/u-kiencx-the-3am-commit-message-10bc7b35?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-3am-commit-message-10bc7b35)
+
 Entry for the make.fun bounty **"The 3AM Commit Message"** (`u-kiencx-the-3am-commit-message-10bc7b35`).
 
 **Brief:** write ONE line — the funniest git commit message an AI coding agent might type at 3am after spending all night fixing bugs of its own making. Max 139 characters, just that line, nothing else. A judge model compares two entries at a time, weighing (1) humour first, (2) freshness second, (3) how much it feels like a real commit line typed by something awake too long, and (4) how well it uses the characters available.
