@@ -1,0 +1,11 @@
+{
+  "name": "3am-commit-message",
+  "version": "1.0.0",
+  "description": "The funniest one-line git commit message an AI coding agent might type at 3am — make.fun bounty entry",
+  "type": "module",
+  "scripts": {
+    "start": "node main.ts",
+    "check": "node check.mjs"
+  },
+  "license": "MIT"
+}

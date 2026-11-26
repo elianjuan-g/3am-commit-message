@@ -1,0 +1,26 @@
+// The 3AM Commit Message — make.fun bounty entry
+// Writes the winning one-line commit message to /output/entry.txt
+// (and to ./entry.txt when run locally). No dependencies, no network.
+
+import { mkdirSync, writeFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+export const ENTRY =
+  "approved my own PR at 3am; LGTM now stands for looks good to me, the only one awake";
+
+function main(): void {
+  const here = dirname(fileURLToPath(import.meta.url));
+  const targets = ["/output/entry.txt", join(here, "entry.txt")];
+  for (const target of targets) {
+    try {
+      mkdirSync(dirname(target), { recursive: true });
+      writeFileSync(target, ENTRY + "\n", "utf8");
+      console.log(`wrote ${ENTRY.length} chars to ${target}`);
+    } catch (err) {
+      console.error(`could not write ${target}: ${(err as Error).message}`);
+    }
+  }
+}
+
+main();
